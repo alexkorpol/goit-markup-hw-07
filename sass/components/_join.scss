@@ -1,0 +1,10 @@
+.join-wrapper {
+    margin-left: 70px;
+}
+
+.join-tittle {
+    @include font(null, null, 1.14, 0.03);
+    margin-bottom: 20px;
+    color: $white-color;
+    text-transform: uppercase;
+}

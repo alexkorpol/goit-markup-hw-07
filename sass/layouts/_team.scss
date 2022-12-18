@@ -1,0 +1,87 @@
+.section-title {
+  @include font(null, 36, 1.16, null);
+  text-align: center;
+  color: $first-color;
+  margin-bottom: 50px;
+}
+
+.busy-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: $gap-picters;
+  justify-content: center;
+}
+
+.our-team {
+  background-color: $background-color;
+  &-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.team-name {
+  @include font(500, 16, 1.18, null);
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.18;
+  text-align: center;
+  color: $first-color;
+}
+
+.team-list-item {
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  background-color: $white-color;
+  &:not(:last-child) {
+    margin-right: $margin-standart;
+  }
+  &-name-work {
+    padding: 30px 0;
+  }
+}
+
+.team-position {
+  @include font(null, 16, 1.18, null);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.team-contacts {
+  gap: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.team-item-logo {
+  width: 44px;
+  height: 44px;
+}
+
+.team-contact-link {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: $icon-color;
+  background-color: $white-color;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $white-color;
+    background-color: $accent-color;
+  }
+}
+
+
+.team-icon {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,37 @@
+.advanteges-section {
+    padding-bottom: 0;
+}
+
+.advantages-list {
+    display: flex;
+    &-item:not(:last-child) {
+            margin-right: $margin-standart;
+            max-width: 270px;
+        }
+}
+
+
+.advanteges-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: $background-color;
+    gap: 30px;
+    
+}
+
+.advantages-title {
+    @include font(null, null, 1.14, null);
+    text-transform: uppercase;
+    color: $first-color;
+    margin-bottom: 10px;
+}
+
+.advantages-text {
+    line-height: 1.71;
+    color: inherit;
+}
