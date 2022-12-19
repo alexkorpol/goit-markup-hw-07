@@ -1,0 +1,31 @@
+.info__tittle {
+    margin-bottom: 50px;
+}
+
+.info__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info__block {
+    display: block;
+    position: relative;
+}
+
+.info__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 224px;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.info__text {
+    text-transform: uppercase;
+    line-height: 1.14;
+    color: $background-color;
+}

@@ -14,14 +14,6 @@
   margin-bottom: 50px;
 }
 
-.busy-list {
-  display: flex;
-  flex-wrap: wrap;
-  -moz-column-gap: var(--gap-picters);
-  column-gap: var(--gap-picters);
-  justify-content: center;
-}
-
 .our-team {
   background-color: var(--background-color);
 }

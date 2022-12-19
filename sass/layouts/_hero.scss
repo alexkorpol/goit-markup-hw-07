@@ -11,7 +11,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.hero-title {
+.hero__title {
     @include font(900, 44, 1.36, null);
     text-align: center;
     letter-spacing: 0.06em;

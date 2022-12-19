@@ -1,17 +1,19 @@
-.advanteges-section {
+.advantages {
     padding-bottom: 0;
 }
 
-.advantages-list {
+.advantages__list {
     display: flex;
-    &-item:not(:last-child) {
-            margin-right: $margin-standart;
-            max-width: 270px;
-        }
+    
+}
+
+.advantages__item:not(:last-child) {
+    margin-right: $margin-standart;
+    max-width: 270px;
 }
 
 
-.advanteges-icons {
+.advantages__icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,14 +26,19 @@
     
 }
 
-.advantages-title {
+.advantages__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.advantages__title {
     @include font(null, null, 1.14, null);
     text-transform: uppercase;
     color: $first-color;
     margin-bottom: 10px;
 }
 
-.advantages-text {
+.advantages__text {
     line-height: 1.71;
     color: inherit;
 }
