@@ -1,26 +1,12 @@
-.section-title {
-  @include font(null, 36, 1.16, null);
-  text-align: center;
-  color: $first-color;
-  margin-bottom: 50px;
-}
-
-.busy-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: $gap-picters;
-  justify-content: center;
-}
-
-.our-team {
+.team {
   background-color: $background-color;
-  &-list {
+  &__list {
     display: flex;
     justify-content: center;
   }
 }
 
-.team-name {
+.team__name {
   @include font(500, 16, 1.18, null);
   // font-weight: 500;
   // font-size: 16px;
@@ -29,7 +15,7 @@
   color: $first-color;
 }
 
-.team-list-item {
+.team__item {
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 0px 0px 4px 4px;
@@ -37,30 +23,31 @@
   &:not(:last-child) {
     margin-right: $margin-standart;
   }
-  &-name-work {
-    padding: 30px 0;
-  }
 }
 
-.team-position {
+.team__name-work {
+  padding: 30px 0;
+}
+
+.team__position {
   @include font(null, 16, 1.18, null);
   text-align: center;
   margin-top: 10px;
   margin-bottom: 16px;
 }
 
-.team-contacts {
+.team__contacts {
   gap: 10px;
   justify-content: center;
   display: flex;
 }
 
-.team-item-logo {
+.team__logo {
   width: 44px;
   height: 44px;
 }
 
-.team-contact-link {
+.team__contact {
   justify-content: center;
   display: flex;
   align-items: center;
@@ -80,7 +67,7 @@
 }
 
 
-.team-icon {
+.team__icon {
   fill: currentColor;
   width: 20px;
   height: 20px;

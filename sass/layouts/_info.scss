@@ -1,11 +1,7 @@
-.info__tittle {
-    margin-bottom: 50px;
-}
-
 .info__list {
     display: flex;
+    column-gap: $gap-picters;
     justify-content: center;
-    gap: 30px;
 }
 
 .info__block {
